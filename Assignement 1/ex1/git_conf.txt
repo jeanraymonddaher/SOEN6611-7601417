@@ -1,2 +1,2 @@
-url =https://github.com/zhaozheid/CCD_SOEN6441_TD
+url =https://github.com/mikereidis/spirit2_free
 root_directory =/home/pcr/get_git/

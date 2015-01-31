@@ -56,8 +56,13 @@ for i in searchObj:
 
 os.chdir(directory)
 
+bool=False
+
 for i in x:
+    bool=True
     print i+" Cloning"
     git.Git().clone(i)
 
+if (bool==False):
+    print("No repositories found, A repository must be of the format http...github... and end with a .git extension");
 
